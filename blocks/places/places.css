@@ -9,21 +9,21 @@
 
 @media screen and (max-width: 1280px) {
   .places {
-    max-width: 928px;
+    max-width: calc(100vw - 96px);
   }
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 720px;
+    max-width: calc(100vw - 48px);
     row-gap: 73px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .places {
     padding: 64px 0 66px;
-    max-width: 320px;
+    max-width: 100vw;
     row-gap: 50px;
   }
 }

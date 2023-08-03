@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1280px) {
   .photo-grid {
-    max-width: 928px;
+    max-width: calc(100vw - 96px);
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
@@ -20,7 +20,7 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     padding-top: 88px;
-    max-width: 720px;
+    max-width: calc(100vw - 48px);
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
@@ -29,7 +29,7 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     padding-top: 64px;
-    max-width: 288px;
+    max-width: calc(100vw - 32px);
     grid-template-columns: 1fr;
     gap: 12px;
   }
