@@ -17,17 +17,18 @@
 
 @media screen and (max-width: 1024px){
   .intro {
-    max-width: 720px;
+    max-width: calc(100vw - 48px);
     padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 288px;
+    max-width: calc(100vw - 32px);
     padding-top: 64px;
   }
 }
+
 
 
 

@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="pages/index.css">
 </head>
 
-<body class="page wrapper">
+<body class="page page__wrapper">
   <header class="header">
     <div class="header__logo"></div>
     <div class="header__lang-links">
@@ -18,7 +17,7 @@
   </header>
 
   <main class="content">
-    <section class="lead wrapper">
+    <section class="lead page__wrapper">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках
         новостей, а здесь.</p>
@@ -26,9 +25,9 @@
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
 
-    <section class="intro wrapper">
-      <h2 class="intro__title intro-element-size">Чего мы там не видели?</h2>
-      <p class="intro__text intro-element-size">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести
+    <section class="intro page__wrapper">
+      <h2 class="intro__title content__intro-element-size">Чего мы там не видели?</h2>
+      <p class="intro__text content__intro-element-size">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести
         отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
         Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана.
         А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов.
@@ -36,7 +35,7 @@
         усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
         Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
       </p>
-      <ul class="intro__list intro-element-size">
+      <ul class="intro__list content__intro-element-size">
         <li><span class="intro__text-bold">Часовых поясов </span>11</li>
         <li><span class="intro__text-bold">Объектов природного наследия ЮНЕСКО </span>12</li>
         <li><span class="intro__text-bold">Объектов культурного наследия ЮНЕСКО </span>16</li>
@@ -45,7 +44,7 @@
       </ul>
     </section>
 
-    <section class="photo-grid wrapper">
+    <div class="photo-grid page__wrapper">
       <img src="images/train-window.jpg" alt="Вид из окна поезда" class="photo-grid__item">
       <img src="images/cloudy-mountains.jpg" alt="Облака над горами" class="photo-grid__item">
       <img src="images/meadow.jpg" alt="Собака на стоге сена" class="photo-grid__item">
@@ -58,9 +57,9 @@
       <img src="images/field-near-mountain.jpg" alt="Поле со скудной растительностью" class="photo-grid__item">
       <img src="images/mountain-near-lake.jpg" alt="Гора у озера" class="photo-grid__item">
       <img src="images/misty-field.jpg" alt="Туман над полем" class="photo-grid__item">
-    </section>
+    </div>
 
-    <section class="places wrapper">
+    <section class="places page__wrapper">
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
         <img src="images/kurshskaya-kosa.jpg" alt="Побережье с останками деревьев." class="place__image">
@@ -173,12 +172,15 @@
       </div>
     </section>
 
-    <section class="cover wrapper">
-      <div class="cover__overlay"></div>
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <p class="cover__subtitle">
-        По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-      </p>
+    <section class="cover page__wrapper">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
+        <div class="cover__overlay">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+          </p>
+        </div>
+      </a>
     </section>
 
     <footer class="footer">
