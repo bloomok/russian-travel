@@ -1,11 +1,11 @@
-.place__paragraphs {
+.place__description {
   display: flex;
   flex-direction: column;
   row-gap: 26px;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__paragraphs {
+@media screen and (max-width: 768px) {
+  .place__description {
     row-gap: 25px;
   }
 }

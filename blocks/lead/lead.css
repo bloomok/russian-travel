@@ -10,14 +10,14 @@
 
 @media screen and (max-width: 1280px){
   .lead {
-    max-width: calc(100vw - 96px);
-    padding-top: 48px;
+    max-width: calc(100vw - 296px);
   }
 }
 
 @media screen and (max-width: 1024px){
   .lead {
-    max-width: 100vw;
+    max-width: calc(100vw - 96px);
+    padding-top: 48px;
   }
 }
 

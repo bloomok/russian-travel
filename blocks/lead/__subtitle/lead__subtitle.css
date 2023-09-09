@@ -8,16 +8,17 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    max-width: calc(100vw - 32px);
-    font-size: 24px;
+    max-width: calc(100vw - 128px);
+    font-size: 30px;
     line-height: 1.2;
   }
 }
 
 @media screen and (max-width: 576px) {
   .lead__subtitle {
+    margin: 16px 0 0;
+    max-width: calc(100vw - 32px);
     font-size: 16px;
     line-height: 1.25;
-    margin: 16px 0 0;
   }
 }

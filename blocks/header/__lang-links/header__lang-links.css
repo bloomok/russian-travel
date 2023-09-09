@@ -1,12 +1,12 @@
 .header__lang-links {
   display: flex;
   padding: 18px 0 6px;
+  margin: 0;
   column-gap: 18px;
- /* 18 пикселей сверху
-  6 пикселей снизу*/
+  list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .header__lang-links {
     padding: 14px 0 8px;
   }
