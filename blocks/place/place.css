@@ -8,16 +8,13 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: minmax(440px, calc((100% - 32px)/2*(440/456))) 1fr;
-    /*функция calc() выше здесь сохраняет пропорции макета 1024px */
+    grid-template-columns: 1fr 1.036fr;
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    /* Охуительная формула, чтоб красиво было. НЕ ТРОГАТЬ. */
-    grid-template-columns: minmax(250px, calc((100% - 28px)/2*(448/456))) 1fr;
     column-gap: 28px;
   }
 }
