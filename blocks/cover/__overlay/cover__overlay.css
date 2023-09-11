@@ -5,10 +5,10 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: rgba(42, 44, 47, .30000001192092896);;
+  background-color: rgba(42, 44, 47, .3);;
   transition: background-color 0.3s ease-in;
 }
 
 .cover__overlay:hover {
-  background-color: rgba(42, 44, 47, .800000011920929);
+  background-color: rgba(42, 44, 47, .8);
 }
